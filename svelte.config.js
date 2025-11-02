@@ -16,6 +16,9 @@ const config = {
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/url-shortener' : ''
 		}
+	},
+	prerender: {
+    entries: ['*']   // ✅ 自動預先產生所有可達頁面
 	}
 };
 
