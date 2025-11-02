@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '22'
           cache: 'npm' # 加速依賴安裝
       - name: Install Dependencies
         run: npm install
